@@ -184,7 +184,7 @@ main {
   display: flex;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   font-family: 'Sofia Sans Extra Condensed', sans-serif;
-  transition: transform 0.3s ease-in-out;
+  transition: scale 0.3s ease-in-out;
   width: 100%;
   margin-bottom: 10px;
 }
@@ -195,7 +195,7 @@ main {
 }
 
 .card:hover {
-  transform: scale(1.05);
+  scale: 1.03 1.12;
 }
 
 /* Topic Card Styling */
